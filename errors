@@ -1,0 +1,10 @@
+db connectivity:
+tomcat@tomcat:/opt/tomcat$ javac -cp .:webapps/mssql-jdbc-12.8.1.jre8.jar SqlServerConnectionTest.java
+tomcat@tomcat:/opt/tomcat$ java -cp .:webapps/mssql-jdbc-12.8.1.jre8.jar SqlServerConnectionTest
+Connection failed!
+com.microsoft.sqlserver.jdbc.SQLServerException: Reason: An instance-specific error occurred while establishing a connection to SQL Server. Connection was denied since Deny Public Network Access is set to Yes (https://docs.microsoft.com/azure/azure-sql/database/connectivity-settings#deny-public-network-access). To connect to this server, use the Private Endpoint from inside your virtual network (https://docs.microsoft.com/azure/sql-database/sql-database-private-endpoint-overview#how-to-set-up-private-link-for-azure-sql-database). ClientConnectionId:311b198e-bf57-4d77-9f59-c6f8584d12d5
+        at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDatabaseError(SQLServerException.java:270)
+        at com.microsoft.sqlserver.jdbc.TDSTokenHandler.onEOF(tdsparser.java:329)
+        at com.microsoft.sqlserver.jdbc.TDSParser.parse(tdsparser.java:137)
+
+        
