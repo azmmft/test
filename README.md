@@ -1,12 +1,13 @@
-# test
+# tooling
 testemplates
+
 
 This library is used 
 
 ```bash
 teste
 ```
-
+SQLSEVER - samples
 compile:
 ```console
 javac TestConnectionPool.java
@@ -41,4 +42,8 @@ java -cp .:mssql-jdbc-12.8.1.jre8.jar Main
 ```
 ^^run
 
+Or easy containers:
+Docker:
+https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver16&pivots=cs1-bash&tabs=cli
+^^
 
