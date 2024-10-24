@@ -4,6 +4,7 @@ testemplates
 ## 🔧 Technologies & Tools
 ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/endpoint?url=https%3A%2F%2Fshields.redsparr0w.com%2F2473%2Fmonday)
 
 This library is used 
 
